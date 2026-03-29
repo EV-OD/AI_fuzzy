@@ -1,6 +1,4 @@
 <div align="center">
-  <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-
   <h1>Fuzzy-Logic Loan Approval System</h1>
   <p>A browser-based Loan Approval Simulator powered by an ID3 Decision Tree and Fuzzy Logic — built with React, TypeScript, and Vite.</p>
 
