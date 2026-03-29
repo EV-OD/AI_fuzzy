@@ -90,7 +90,7 @@ pnpm preview
 
 ## Deploy to GitHub Pages
 
-This project includes a GitHub Actions workflow (`.github/workflows/deploy.yml`) that automatically builds and deploys the app to GitHub Pages on every push to `main`.
+This project includes a GitHub Actions workflow (`.github/workflows/deploy.yml`) that automatically builds and deploys the app to GitHub Pages on every push to `master`.
 
 ### Setup Steps
 
@@ -98,7 +98,7 @@ This project includes a GitHub Actions workflow (`.github/workflows/deploy.yml`)
    - Go to **Settings → Pages**
    - Under *Source*, select **GitHub Actions**
 
-2. **Push to `main`** — the workflow will trigger automatically and deploy to:
+2. **Push to `master`** — the workflow will trigger automatically and deploy to:
 
    ```
    https://<your-username>.github.io/<your-repo>/
@@ -107,7 +107,7 @@ This project includes a GitHub Actions workflow (`.github/workflows/deploy.yml`)
 ### Workflow Summary
 
 ```
-push to main
+push to master
     └── build job
           ├── Checkout code
           ├── Setup pnpm
